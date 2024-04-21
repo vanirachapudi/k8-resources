@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: pod
+matadata:
+  name: hello-pod
+  Namespace: roboshop
+spec:
+  containers:
+  - name: hello-pod
+    image: nginx
+    ports:
+    - containerport: 80
