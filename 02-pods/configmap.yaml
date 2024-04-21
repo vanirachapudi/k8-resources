@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: pod
+matadata:
+  name: devops-config
+data:
+  course: devops
+  trainer: "anji"
