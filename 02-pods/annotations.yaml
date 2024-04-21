@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: pod
+matadata:
+  name: annotations
+  labels:
+    course: devops
+    trainer: "anji"
+  annotations:
+    com.roboshop.training.duration: "120HRS"
+spec:
+  containers:
+  - name: hello-pod
+    image: nginx
+    ports:
+    - containerport: 80
